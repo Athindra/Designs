@@ -1,0 +1,155 @@
+/*
+   * Header  CSS Section
+   * --------------------------------------------------
+   */
+   header {
+    padding-top: 10px;
+  }
+  
+  .top-bar .logo {
+    padding: 0px;
+  }
+  
+  .top-bar .logo img {
+    width: 100%;
+  }
+  
+  .logo span {
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 5px;
+    display: block;
+  }
+  
+  .user-block {
+    padding: 0px;
+  }
+  
+  .user-block ul {
+    float: right;
+  }
+  
+  .user-icon {
+    font-size: 24px !important;
+    position: absolute !important;
+    top: 12px !important;
+    right: -20px !important;
+  }
+  
+  .user-block .dropdown-toggle {
+    margin-right: 20px;
+  }
+  
+  .user-block .nav>li>a:hover,
+  .user-block .nav>li>a:focus,
+  .user-block .nav .open>a,
+  .user-block .nav .open>a:hover,
+  .user-block .nav .open>a:focus {
+    background: #fff;
+  }
+  
+  .user-block .dropdown {
+    background: #fff;
+  }
+  
+  .user-block .dropdown-menu>li>a {
+    color: #428bca;
+  }
+  
+  .user-block .dropdown ul.dropdown-menu {
+    border-radius: 4px;
+    box-shadow: none;
+    margin-top: 10px;
+    width: 150px;
+  }
+  
+  .user-block .dropdown ul.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    z-index: 10;
+  }
+  
+  .user-block .dropdown ul.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #ccc;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 14px;
+    z-index: 9;
+  }
+  
+  .btn.btn-plus {
+      background: none;
+  }
+  .search-box input {
+      border: 0px;
+      border-bottom: 1px solid #333;
+      margin-right: 20px;
+  }
+  
+  .btn-top {
+      position: absolute;
+      top: -10px;
+      right: -15px;
+  }
+  .btn-plus.right-plus {
+      right: 0;
+  }
+  .btn-plus {
+      right: -18px;
+  }
+  .btn-plus i {
+      font-size: 20px;
+      color: #ccc;
+  }
+  
+  .navbar.main-menu {
+    margin: 0px;
+  }
+  
+  .main-menu .navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .main-menu .navbar-form {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .main-menu .navbar-nav li a {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .main-menu .nav>li>a:hover, .main-menu .nav>li>a:focus {
+    background: none;
+    color: #d11f2a;
+  }
+  
+  .nav.navbar-nav.add-stip {
+    position: relative;
+  }
+  
+  .nav.navbar-nav.add-stip::after {
+    background: #333;
+    height: 20px;
+    width: 1px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 13px;
+  }
+  
+  .nav.navbar-nav.add-stip li a i {
+    font-size: 20px;
+  }
+  
